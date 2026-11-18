@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --font-sans: sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
+
+.container2 {
+  border-radius: 8px;
+  border: 1px solid rgb(222, 222, 229);
+  box-shadow: 2px, 4px, 1px, 10px, rgba(21, 19, 19, 0.15);
+  height: 230px;
+  width: 400px;
+  position: relative;
+  background-color: rgb(245, 249, 250);
+  color: black;
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  font-family: var(--font-sans);
+  font-weight: 700;
+}
+
+h6 {
+  font-family: var(--font-sans);
+  font-weight: 100;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#cash_amount,
+#tip {
+  position: relative;
+  margin-left: 10px;
+  width: 90%;
+}
+
+#calculator {
+  margin-top: 10px;
+  margin-left: 10px;
+  position: absolute;
+  width: 90%;
+  background-color: rgb(23, 154, 23);
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+#calculator:hover {
+  background-color: rgb(18, 175, 18);
+  bottom: 60px;
+}
+
+#total {
+  position: absolute;
+  bottom: 10px;
+}
+#tip_total {
+  position: absolute;
+  bottom: 8px;
+  margin-left: 40px;
+}
